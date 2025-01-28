@@ -4,7 +4,7 @@ import pickle
 
 
 # Load the trained model
-@st.cache_data(allow_output_mutation=True)
+@st.cache_data()
 def load_model():
     with open("model.pkl", "rb") as file:
         model = pickle.load(file)
