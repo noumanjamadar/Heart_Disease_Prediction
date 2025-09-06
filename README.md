@@ -25,7 +25,6 @@
 
 ## 🚀 Project Overview
 
-**Impact Statement:**  
 This project demonstrates how Machine Learning can assist in early detection of heart disease, which is critical in saving lives and reducing healthcare costs.  
 
 The model predicts the likelihood of heart disease based on clinical features such as blood pressure, cholesterol, age, BMI, and sugar levels, helping in early diagnosis and preventive care.
@@ -34,7 +33,7 @@ The model predicts the likelihood of heart disease based on clinical features su
 
 ## 📂 Dataset
 
-**Source:** Cleveland dataset from the UCI Machine Learning Repository.  
+**Source:** Cleveland dataset from the [UCI Machine Learning Repository](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data).  
 
 Includes clinical attributes such as:  
 - Age, Sex  
@@ -70,7 +69,6 @@ Includes clinical attributes such as:
 
 **Deployment 🌐**  
 - Built an interactive Streamlit App for real-time predictions.
-- [Heart Disease Prediction App](https://heartdiseaseprediction-123.streamlit.app/)  
 
 ---
 
