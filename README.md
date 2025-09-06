@@ -1,110 +1,111 @@
-# ❤️ Heart Disease Prediction using Machine Learning  
+# ❤️ Heart Disease Prediction Model  
 
-📌 **Table of Contents**  
-- Project Overview  
-- Dataset Description  
-- Steps & Tasks Performed  
-- Key Insights & Learnings  
-- Project Deliverables  
-- Live Demo  
-- Tools & Technologies Used  
-- Skills Demonstrated  
-- Author  
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Accuracy](https://img.shields.io/badge/Accuracy-89%25-brightgreen)
+![ROC AUC](https://img.shields.io/badge/ROC--AUC-0.92-yellowgreen)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-LogReg%20%7C%20RandomForest-orange)
 
 ---
 
-## 📌 Project Overview  
-This project predicts the likelihood of **heart disease** in patients based on clinical and lifestyle features such as blood pressure, cholesterol, BMI, and more.  
-The solution applies **Machine Learning models** and deploys the best-performing model using a **Streamlit web app** for real-time predictions.  
-
-The repository contains:  
-- `Project.ipynb` → Jupyter notebook with ML workflow  
-- `streamlit_app.py` → Streamlit web app source code  
-- `model.pkl` → Trained ML model file  
-- `heart-disease.csv` → Dataset used for training/testing  
-- `requirements.txt` → Python dependencies  
-- `Env/` → Conda environment folder (installed packages)  
-
----
-
-## 📊 Dataset Description  
-The dataset (`heart-disease.csv`) includes:  
-- Age  
-- Blood Pressure  
-- Cholesterol  
-- Blood Sugar  
-- Resting ECG  
-- Maximum Heart Rate Achieved  
-- Exercise-Induced Angina  
-- ST Depression & Slope  
-- Target → `1` (disease present), `0` (no disease)  
+## 📌 Table of Contents  
+- [Project Overview](#-project-overview)  
+- [Dataset](#-dataset)  
+- [Project Workflow](#-project-workflow)  
+- [Key Learnings](#-key-learnings)  
+- [Results](#-results)  
+- [Streamlit App](#-streamlit-app)  
+- [Tools & Technologies Used](#-tools--technologies-used)  
+- [Skills Demonstrated](#-skills-demonstrated)  
+- [Connect with Me](#-connect-with-me)  
 
 ---
 
-## 🛠️ Steps & Tasks Performed  
-🔹 **Data Preprocessing**  
-- Handled missing values  
-- Encoded categorical variables  
-- Standardized numerical features  
+## 🚀 Project Overview  
+This project is a **Heart Disease Prediction Model** built using **Machine Learning** and deployed with **Streamlit** for a smooth and interactive user experience.  
 
-🔹 **Exploratory Data Analysis (EDA)**  
-- Distribution plots to understand feature behavior  
-- Correlation heatmaps for identifying strong predictors  
-- Feature importance analysis  
-
-🔹 **Model Training**  
-- Trained Logistic Regression, Random Forest, and XGBoost models  
-- Compared performance using **Accuracy, ROC-AUC, and F1-score**  
-- Tuned hyperparameters for better generalization  
-- Saved best model (`model.pkl`)  
-
-🔹 **Deployment**  
-- Built interactive **Streamlit app**  
-- Deployed on **Streamlit Cloud**  
+The model predicts the likelihood of heart disease based on clinical features such as **blood pressure, cholesterol, age, BMI, and sugar levels**, helping in **early diagnosis and preventive care**.  
 
 ---
 
-## 📈 Key Insights & Learnings  
-- **EDA is crucial**: Helped discover correlations, outliers, and important features influencing heart disease.  
-- **Evaluation metrics matter**: Learned why metrics like **ROC-AUC** are more reliable than raw accuracy in healthcare settings.  
-- **Hyperparameter tuning is essential**: Improved model performance significantly and prevented overfitting.  
-- Logistic Regression was interpretable but less accurate, while Random Forest and XGBoost delivered stronger predictive power.  
-- Final chosen model achieved **~89% accuracy** and **0.92 ROC-AUC score**.  
+## 📂 Dataset  
+- Source: **Cleveland dataset** from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/heart+Disease).  
+- Includes clinical attributes such as:  
+  - Age, Sex  
+  - Resting Blood Pressure  
+  - Cholesterol levels  
+  - Fasting Blood Sugar  
+  - ECG results  
+  - Maximum Heart Rate Achieved  
+  - Exercise Induced Angina  
+  - Oldpeak, Slope, Thalassemia, etc.  
 
 ---
 
-## 📂 Project Deliverables  
-✅ Cleaned dataset (`heart-disease.csv`)  
-✅ ML model file (`model.pkl`)  
-✅ Jupyter Notebook (`Project.ipynb`)  
-✅ Streamlit app (`streamlit_app.py`)  
-✅ Environment & requirements files (`Env/`, `requirements.txt`)  
+## 🛠 Project Workflow  
+1. **Exploratory Data Analysis (EDA)** 🔍  
+   - Identified correlations between features.  
+   - Visualized patterns in patients with and without heart disease.  
+
+2. **Data Preprocessing** 🧹  
+   - Handled missing values.  
+   - Encoded categorical variables.  
+   - Scaled numerical features.  
+
+3. **Model Training** 🤖  
+   - Logistic Regression  
+   - Random Forest Classifier  
+
+4. **Evaluation Metrics** 📊  
+   - Confusion Matrix  
+   - Precision, Recall, F1-Score  
+   - ROC-AUC  
+
+5. **Deployment** 🌐  
+   - Built an interactive **Streamlit App** for real-time predictions.  
 
 ---
 
-## 🌐 Live Demo  
-🚀 Try the app here: [Heart Disease Prediction - Streamlit](https://heartdiseaseprediction-123.streamlit.app/)  
+## 🎯 Key Learnings  
+- Importance of **EDA** in understanding feature distribution and spotting outliers.  
+- **Selection of Evaluation Metrics** (Precision, Recall, F1-score, ROC-AUC) is critical in healthcare, where false negatives can be dangerous.  
+- **Hyperparameter Tuning** improves model generalization and reduces overfitting.  
+- End-to-end pipeline: from raw data → model → **deployment** on Streamlit.  
 
 ---
 
-## 🚀 Tools & Technologies Used  
-- **Python** (pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost)  
+## 📈 Results  
+- Achieved **89% Accuracy** ✅  
+- ROC-AUC Score: **0.92** 🏆  
+- Reliable predictions with balanced **Precision & Recall**  
+
+---
+
+## 🌐 Streamlit App  
+Try the live interactive app here 👉 [Heart Disease Prediction App](https://heartdiseaseprediction-123.streamlit.app/)  
+
+---
+
+## 🛠 Tools & Technologies Used  
+- **Python** 🐍  
+- **Pandas, NumPy** for data handling  
+- **Matplotlib, Seaborn** for EDA & Visualization  
+- **Scikit-learn** for ML modeling  
 - **Streamlit** for deployment  
-- **Jupyter Notebook** for experimentation  
-- **Conda** for environment management  
 
 ---
 
 ## 🧑‍💻 Skills Demonstrated  
-- Data Preprocessing & Feature Engineering  
-- **Importance of EDA for decision-making**  
-- **Selection of correct evaluation metrics (ROC-AUC, F1, Accuracy)**  
-- **Hyperparameter tuning for optimal performance**  
-- Model Deployment with Streamlit  
-- Version Control with Git & GitHub  
+- Data Cleaning & Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Feature Engineering  
+- Model Training & Evaluation  
+- Hyperparameter Tuning  
+- Deployment with Streamlit  
 
 ---
 
-## 👤 Author  
-**Mohammad Navaman Jamadar**  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/mohammad-navaman-jamadar)  
+## 🤝 Connect with Me  
+📌 GitHub Repo: [Heart Disease Prediction](https://github.com/)  
+🌐 Live App: [Streamlit App](https://heartdiseaseprediction-123.streamlit.app/)  
+💼 LinkedIn: [Mohammad Navaman Jamadar](https://www.linkedin.com/in/mohammad-navaman-jamadar)  
