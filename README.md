@@ -1,4 +1,4 @@
-# ❤️ Heart Disease Prediction Model  
+# ❤️ Heart Disease Prediction Model
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
@@ -8,61 +8,91 @@
 
 ---
 
-## 📌 Table of Contents  
-- [Project Overview](#-project-overview)  
-- [Dataset](#-dataset)  
-- [Project Workflow](#-project-workflow)  
-- [Key Learnings](#-key-learnings)  
-- [Results](#-results)  
-- [Streamlit App](#-streamlit-app)  
-- [Tools & Technologies Used](#-tools--technologies-used)  
-- [Skills Demonstrated](#-skills-demonstrated)  
-- [Connect with Me](#-connect-with-me)  
+## 📌 Table of Contents
+- [Project Overview](#-project-overview)
+- [Dataset](#-dataset)
+- [Project Workflow](#-project-workflow)
+- [Project Deliverables](#-project-deliverables)
+- [Quick Run Instructions](#-quick-run-instructions)
+- [Key Learnings](#-key-learnings)
+- [Results](#-results)
+- [Streamlit App](#-streamlit-app)
+- [Tools & Technologies Used](#-tools--technologies-used)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Connect with Me](#-connect-with-me)
 
 ---
 
-## 🚀 Project Overview  
-This project is a **Heart Disease Prediction Model** built using **Machine Learning** and deployed with **Streamlit** for a smooth and interactive user experience.  
+## 🚀 Project Overview
 
-The model predicts the likelihood of heart disease based on clinical features such as **blood pressure, cholesterol, age, BMI, and sugar levels**, helping in **early diagnosis and preventive care**.  
+**Impact Statement:**  
+This project demonstrates how Machine Learning can assist in early detection of heart disease, which is critical in saving lives and reducing healthcare costs.  
 
----
-
-## 📂 Dataset  
-- Source: **Cleveland dataset** from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/heart+Disease).  
-- Includes clinical attributes such as:  
-  - Age, Sex  
-  - Resting Blood Pressure  
-  - Cholesterol levels  
-  - Fasting Blood Sugar  
-  - ECG results  
-  - Maximum Heart Rate Achieved  
-  - Exercise Induced Angina  
-  - Oldpeak, Slope, Thalassemia, etc.  
+The model predicts the likelihood of heart disease based on clinical features such as blood pressure, cholesterol, age, BMI, and sugar levels, helping in early diagnosis and preventive care.
 
 ---
 
-## 🛠 Project Workflow  
-1. **Exploratory Data Analysis (EDA)** 🔍  
-   - Identified correlations between features.  
-   - Visualized patterns in patients with and without heart disease.  
+## 📂 Dataset
 
-2. **Data Preprocessing** 🧹  
-   - Handled missing values.  
-   - Encoded categorical variables.  
-   - Scaled numerical features.  
+**Source:** Cleveland dataset from the UCI Machine Learning Repository.  
 
-3. **Model Training** 🤖  
-   - Logistic Regression  
-   - Random Forest Classifier  
+Includes clinical attributes such as:  
+- Age, Sex  
+- Resting Blood Pressure  
+- Cholesterol levels  
+- Fasting Blood Sugar  
+- ECG results  
+- Maximum Heart Rate Achieved  
+- Exercise Induced Angina  
+- Oldpeak, Slope, Thalassemia, etc.
 
-4. **Evaluation Metrics** 📊  
-   - Confusion Matrix  
-   - Precision, Recall, F1-Score  
-   - ROC-AUC  
+---
 
-5. **Deployment** 🌐  
-   - Built an interactive **Streamlit App** for real-time predictions.  
+## 🛠 Project Workflow
+
+**Exploratory Data Analysis (EDA) 🔍**  
+- Identified correlations between features.  
+- Visualized patterns in patients with and without heart disease.  
+
+**Data Preprocessing 🧹**  
+- Handled missing values.  
+- Encoded categorical variables.  
+- Scaled numerical features.  
+
+**Model Training 🤖**  
+- Logistic Regression  
+- Random Forest Classifier  
+
+**Evaluation Metrics 📊**  
+- Confusion Matrix  
+- Precision, Recall, F1-Score  
+- ROC-AUC  
+
+**Deployment 🌐**  
+- Built an interactive Streamlit App for real-time predictions.
+- [Heart Disease Prediction App](https://heartdiseaseprediction-123.streamlit.app/)  
+
+---
+
+## 📦 Project Deliverables
+
+This repository contains everything needed to run and deploy the project:  
+- Dataset CSV file 📂 (used for training and testing)  
+- Trained Model File (model.pkl) 🤖  
+- Streamlit Application Script (app.py) 🌐  
+- Environment File (env/) ⚙️ containing all required Python libraries  
+- Jupyter Notebook (Project.ipynb) 📒 with EDA, preprocessing, training, and evaluation
+
+---
+
+## ⚡ Quick Run Instructions
+
+For technical reviewers who want to test the app locally:
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ---
 
@@ -77,7 +107,10 @@ The model predicts the likelihood of heart disease based on clinical features su
 ## 📈 Results  
 - Achieved **89% Accuracy** ✅  
 - ROC-AUC Score: **0.92** 🏆  
-- Reliable predictions with balanced **Precision & Recall**  
+- Reliable predictions with balanced **Precision & Recall** 
+Visualizations:
+
+<table> <tr> <td><img src="Project%20Images/confusion_matrix.png" alt="Confusion Matrix" width="300"/></td> <td><img src="Project%20Images/roc_auc_curve.png" alt="ROC AUC Curve" width="300"/></td> <td><img src="Project%20Images/train_test_plot.png" alt="Train/Test Score Plot" width="300"/></td> </tr> <tr> <td align="center">Confusion Matrix</td> <td align="center">ROC AUC Curve</td> <td align="center">Train/Test Score Plot</td> </tr> </table> 
 
 ---
 
