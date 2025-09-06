@@ -108,9 +108,23 @@ streamlit run app.py
 - Achieved **89% Accuracy** ✅  
 - ROC-AUC Score: **0.92** 🏆  
 - Reliable predictions with balanced **Precision & Recall** 
-Visualizations:
+# Visualizations:
 
-<table> <tr> <td><img src="Project%20Images/confusion_matrix.png" alt="Confusion Matrix" width="300"/></td> <td><img src="Project%20Images/roc_auc_curve.png" alt="ROC AUC Curve" width="300"/></td> <td><img src="Project%20Images/train_test_plot.png" alt="Train/Test Score Plot" width="300"/></td> </tr> <tr> <td align="center">Confusion Matrix</td> <td align="center">ROC AUC Curve</td> <td align="center">Train/Test Score Plot</td> </tr> </table> 
+<table>
+<tr>
+<td><img src="Project%20Images/confusion_matrix.png" alt="Confusion Matrix" width="250"/></td>
+<td><img src="Project%20Images/roc_auc_curve.png" alt="ROC AUC Curve" width="250"/></td>
+<td><img src="Project%20Images/train_test_score_plot.png" alt="Train/Test Score Plot" width="250"/></td>
+<td><img src="Project%20Images/app_screenshot.png" alt="Streamlit App Screenshot" width="250"/></td>
+</tr>
+<tr>
+<td align="center">Confusion Matrix</td>
+<td align="center">ROC AUC Curve</td>
+<td align="center">Train/Test Score Plot</td>
+<td align="center">Streamlit App Screenshot</td>
+</tr>
+</table>
+
 
 ---
 
