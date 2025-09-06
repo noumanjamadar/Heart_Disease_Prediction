@@ -115,7 +115,7 @@ streamlit run app.py
 <td><img src="Project%20Images/confusion_matrix.png" alt="Confusion Matrix" width="250"/></td>
 <td><img src="Project%20Images/roc_auc_curve.png" alt="ROC AUC Curve" width="250"/></td>
 <td><img src="Project%20Images/train_test_score_plot.png" alt="Train/Test Score Plot" width="250"/></td>
-<td><img src="Project%20Images/app_screenshot.png" alt="Streamlit App Screenshot" width="250"/></td>
+<td><img src="Project%20Images/streamlit app.png" alt="Streamlit App Screenshot" width="250"/></td>
 </tr>
 <tr>
 <td align="center">Confusion Matrix</td>
