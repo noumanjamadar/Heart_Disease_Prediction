@@ -109,6 +109,3 @@ Try the live interactive app here 👉 [Heart Disease Prediction App](https://he
 📌 GitHub: [Check out my GitHub Profile for other projects](https://github.com/noumanjamadar/)  
 🌐 Live App: [Streamlit App](https://heartdiseaseprediction-123.streamlit.app/)  
 💼 LinkedIn: [Mohammad Navaman Jamadar](https://www.linkedin.com/in/mohammad-navaman-jamadar)  
-
-🌐 Live App: [Streamlit App](https://heartdiseaseprediction-123.streamlit.app/)  
-💼 LinkedIn: [Mohammad Navaman Jamadar](https://www.linkedin.com/in/mohammad-navaman-jamadar)  
